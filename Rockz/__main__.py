@@ -50,7 +50,7 @@ async def initiate_bot():
         except Exception as e:
             pass
         status.update(
-            ere="[bold blue]Scanning for Plugins", spinner="earth"
+            status="[bold blue]Scanning for Plugins", spinner="earth"
         )
         console.print("Found {} Plugins".format(len(ALL_MODULES)) + "\n")
         status.update(
