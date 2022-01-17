@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/S780821/Rock-Muzic/blob/master/Utils/icon.gif" alt="ICON" width="250" height="250"/></p>
+<p align="center"><img src="https://telegra.ph/file/40748b9107dac650b57f8.jpg" alt="ICON" width="250" height="250"/></p>
 
 <h4 align="center">
     A Telegram Music+video Bot written in Python using Pyrogram and Py-Tgcalls 
