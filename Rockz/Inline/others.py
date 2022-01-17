@@ -1,4 +1,4 @@
-Rockzfrom pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
 from Rockz import db_mem
