@@ -55,7 +55,7 @@
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "https://t.me/Rockerz_Support,
+      "value": "https://t.me/Rockerz_Support",
       "required": false
     },
     "OWNER_ID": {
