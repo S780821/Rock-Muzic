@@ -110,7 +110,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/S780821/Rock-Music",
+      "value": "https://github.com/S780821/Rock-Muzic",
       "required": true
     },
     "UPSTREAM_BRANCH": {
