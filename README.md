@@ -62,7 +62,7 @@ Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for D
 
 <b>🔗 Deploy to VPS</b>
 
-<br>
+
 
 
 
