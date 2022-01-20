@@ -54,7 +54,21 @@ Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for D
     
 <h4>Click the button below to deploy RoCkErZ on Heroku!</h4>    
 <p><a href="https://heroku.com/deploy?template=https://github.com/S780821/Rock-Muzic"</a></p>
-    
+</details>
+59
+
+60
+<details>
+61
+<summary><b>🔗 Deploy to VPS</b></summary>
+62
+<br>
+63
+
+64
+> Checkout [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
+65
+
 </details>
 
 <details>
