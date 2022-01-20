@@ -53,7 +53,9 @@ Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for D
 > Those two vars are not Mandatory! You can leave them blank too. 
     
 <h4>Click the button below to deploy RoCkErZ on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/S780821/Rock-Muzic"</a></p>
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/S780821/Rock-Muzic)
+
+
 
 
 
