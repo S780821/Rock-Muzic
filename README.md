@@ -17,8 +17,8 @@ A Powerful Telegram Music+Video Bot by which you can stream songs, videos and ev
 Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for Detailed Description and Setup Guide on deploying Bot.
 
 > Click on buttons to expand!
-<details>
-<summary><b>🔗 Requirements</b></summary>
+
+<b>🔗 Requirements</b>
 <br>
     
 - [Python3.9](https://www.python.org/downloads/release/python-390/)
@@ -27,10 +27,10 @@ Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for D
 - [MongoDB URI](https://telegra.ph/How-To-get-Mongodb-URI-04-06)
 - [Pyrogram String Session](https://S780821.gitbook.io/Rock-Muzic/deployment/string-session)
     
-</details>
 
-<details>
-<summary><b>🔗 String Session</b></summary>
+
+
+<b>🔗 String Session</b>
 <br>
     
 > You'll need a [API_ID](https://S780821.gitbook.io/Rock-Muzic/vars/mandatory-vars#1.-api_id) & [API_HASH](https://S780821.gitbook.io/Rock-Muzic/vars/mandatory-vars#2.-api_hash) in order to generate pyrogram session. 
@@ -42,10 +42,10 @@ Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for D
 <h4> Generate Session via Telegram StringGen Bot: </h4>    
 <p><a href="https://t.me/Rock_Session_bot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
     
-</details>
 
-<details>
-<summary><b>🔗 Deploy to Heroku</b></summary>
+
+
+<b>🔗 Deploy to Heroku</b>
 <br>
 
 > Heroku has two vars[ HEROKU_API_KEY & HEROKU_APP_NAME ] for Updater to work. 
@@ -54,25 +54,25 @@ Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for D
     
 <h4>Click the button below to deploy RoCkErZ on Heroku!</h4>    
 <p><a href="https://heroku.com/deploy?template=https://github.com/S780821/Rock-Muzic"</a></p>
-</details>
-59
 
-60
-<details>
-61
-<summary><b>🔗 Deploy to VPS</b></summary>
-62
+
+
+
+
+
+<b>🔗 Deploy to VPS</b>
+
 <br>
-63
 
-64
+
+
 > Checkout [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
-65
 
-</details>
 
-<details>
-<summary><b>🔗 Deploy to VPS</b></summary>
+
+
+
+<b>🔗 Deploy to VPS</b>
 <br>
 
 > Checkout [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
@@ -90,7 +90,7 @@ $ bash start
 ```
 
 > Not Getting VPS Method? [Watch Tutorial](https://t.me/OfficialYukki/2275)
-</details>
+
 
 ## Config Vars
 
