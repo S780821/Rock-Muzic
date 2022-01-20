@@ -57,7 +57,7 @@ Read [Docs](https://S780821.gitbook.io/Rock-Muzic/deployment/requirements) for D
 [![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/S780821/Rock-Muzic)
 
 
-
+[![Deploy+On+Tg](https://img.shields.io/badge/DEPLOY%20VIA%20TELEGRAM%20BOT-blueviolet?style=for-the-badge&logo=telegram)](https://telegram.dog/XTZ_HerokuBot?start=Uzc4MDgyMS9Sb2NrLU11emljIFhtYXJ0eQ)
 
 
 
