@@ -229,10 +229,10 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""ʜᴇʟʟᴏ,
-[∆](https://telegra.ph/file/0d0cd252270861a6838ce.jpg)
+home_text_pm = f"""ʜᴇʟʟᴏ [👋](https://telegra.ph/file/0d0cd252270861a6838ce.jpg)
+
 ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.
-ɪ ᴀᴍ ᴍᴜsɪᴄ + ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍᴇʀ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍʏ ɢᴏᴅғᴀᴛʜᴇʀ ɪs [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson) .
+ɪ ᴀᴍ ᴍᴜsɪᴄ + ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍᴇʀ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍʏ ɢᴏᴅғᴀᴛʜᴇʀ ɪs [⚡ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ⚡](https://t.me/xmartperson) .
 
 ᴀʟʟ ᴄᴍɴᴅ ᴄᴀɴ ᴜsᴇᴅ ᴡɪᴛʜ:/"""
 
