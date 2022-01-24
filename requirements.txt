@@ -17,7 +17,7 @@ psutil
 requests
 rich
 dnspython
-yt-dlp==2021.11.10.1
+git+https://github.com/S780821/itxyoutube@master
 tgcrypto
 gitpython
 heroku3
