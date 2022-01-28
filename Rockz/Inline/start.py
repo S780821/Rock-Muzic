@@ -8,22 +8,22 @@ from Rockz import BOT_USERNAME
 def setting_markup2():
     buttons = [
         [
-            InlineKeyboardButton(text="🔈 ᴀᴜᴅɪᴏ ϙᴜᴀʟɪᴛʏ", callback_data="AQ"),
-            InlineKeyboardButton(text="🎚 ᴀᴜᴅɪᴏ ᴠᴏʟᴜᴍᴇ", callback_data="AV"),
+            InlineKeyboardButton(text="🔈 Aᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ.", callback_data="AQ"),
+            InlineKeyboardButton(text="🎚 Aᴜᴅɪᴏ Vᴏʟᴜᴍᴇ", callback_data="AV"),
         ],
         [
             InlineKeyboardButton(
-                text="👥 ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀs", callback_data="AU"
+                text="👥 Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀs", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="💻 ᴅᴀsʜʙᴏᴀʀᴅ", callback_data="Dashboard"
+                text="💻 Dᴀsʜʙᴏᴀʀᴅ", callback_data="Dashboard"
             ),
         ],
         [
-            InlineKeyboardButton(text="✖️ ᴄʟᴏsᴇ", callback_data="close"),
+            InlineKeyboardButton(text="✖️ Cʟᴏsᴇ", callback_data="close"),
         ],
     ]
-    return f"🔧  **{MUSIC_BOT_NAME} sᴇᴛᴛɪɴɢs**", buttons
+    return f"🔧  **{MUSIC_BOT_NAME} Sᴇᴛᴛɪɴɢs**", buttons
 
 
 def start_pannel():
@@ -31,76 +31,76 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 sᴇᴛᴛɪɴɢs", callback_data="settingm"
+                    text="🔧 Sᴇᴛᴛɪɴɢs", callback_data="settingm"
                 )
             ],
         ]
-        return f"🎛  **ᴛʜɪs ɪs {MUSIC_BOT_NAME} ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ʀᴏᴄᴋᴇʀᴢ](@rockerz_support)**", buttons
+        return f"🎛  **Tʜɪs ɪs {MUSIC_BOT_NAME} Pᴏᴡᴇʀᴇᴅ Bʏ [「™ʟᴏɢ✓ᴏᴜᴛ❥︎✔︎」](t.me/Blaze_Support)**", buttons
     if not SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 sᴇᴛᴛɪɴɢs", callback_data="settingm"
+                    text="🔧 Sᴇᴛᴛɪɴɢs", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                    text="📨 Support", url=f"https://t.me/Blaze_Support"
                 ),
             ],
         ]
-        return f"🎛  **ᴛʜɪs ɪs {MUSIC_BOT_NAME}*", buttons
+        return f"🎛  **Tʜɪs ɪs {MUSIC_BOT_NAME}*", buttons
     if SUPPORT_CHANNEL and not SUPPORT_GROUP:
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 sᴇᴛᴛɪɴɢs", callback_data="settingm"
+                    text="🔧 Sᴇᴛᴛɪɴɢs", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                    text="Updates 📨", url=f"https://t.me/The_Blaze_Network"
                 ),
             ],
         ]
-        return f"🎛  **ᴛʜɪs ɪs {MUSIC_BOT_NAME}**", buttons
+        return f"🎛  **Tʜɪs ɪs {MUSIC_BOT_NAME}**", buttons
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 sᴇᴛᴛɪɴɢs", callback_data="settingm"
+                    text="🔧 Sᴇᴛᴛɪɴɢs", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                    text="📨 Support", url=f"https://t.me/UNIQUE_SOCIETY"
                 ),
                 InlineKeyboardButton(
-                    text="📨sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                    text="Updates 📨", url=f"https://t.me/THE_BLAZE_NETWORK"
                 ),
             ],
         ]
-        return f"🎛  **ᴛʜɪs ɪs {MUSIC_BOT_NAME}**", buttons
+        return f"🎛  **Tʜɪs ɪs {MUSIC_BOT_NAME}**", buttons
 
 
 def private_panel():
@@ -108,33 +108,33 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ",
+                    "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ Gʀᴏᴜᴘ ➕",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
         ]
-        return f"🎛  **ᴛʜɪs ɪs {MUSIC_BOT_NAME}**", buttons
+        return f"🎛  **Tʜɪs ɪs {MUSIC_BOT_NAME}**", buttons
     if not SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ",
+                    "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ Gʀᴏᴜᴘ ➕",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                    text="📨 Support", url=f"https://t.me/UNIQUE_SOCIETY"
                 ),
             ],
         ]
@@ -143,18 +143,18 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ",
+                    "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ Gʀᴏᴜᴘ ➕",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                    text="Updates 📨", url=f"https://t.me/Blaze_Support"
                 ),
             ],
         ]
@@ -163,21 +163,21 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="Salim"
+                    text="🗂 Hᴇʟᴘᴇʀ Cᴏᴍᴍᴀɴᴅs Mᴇɴᴜ 🗂", callback_data="Salim"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ",
+                    "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ Gʀᴏᴜᴘ ➕",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                    text="📨 Support", url=f"https://t.me/UNIQUE_SOCIETY"
                 ),
                 InlineKeyboardButton(
-                    text="📨sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                    text="Updates 📨", url=f"https://t.me/BLAZE_support"
                 ),
             ],
         ]
