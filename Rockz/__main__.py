@@ -229,10 +229,12 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""⛦➪ Hello Dear Friends [👋](https://telegra.ph/file/97fc56fca5a3f91c1fd82.jpg)
-⛦➪ My Name is {BOT_NAME}.
-⛦➪ I am Music + Video Streamer on Telegrame Voice Chat [</Oꜰꜰʟɪɴᴇ> ‌[ᴀꜰᴋ]「™ʟᴏɢ✓ᴏᴜᴛ❥︎✔︎」🇮🇳](https://t.me/log_afk) .
-⛦➪ See my all cmd: /help """
+home_text_pm = f"""➪ Ꮋᴇʟʟᴏ Ꭰᴇᴀʀ ҒʀɪᴇɴᴅՏ [👋](https://telegra.ph/file/97fc56fca5a3f91c1fd82.jpg)
+
+Ꮋᴇʏ Ꮇʏ Νᴀᴍᴇ ᏆՏ {BOT_NAME}.
+Ꮖ Ꭺᴍ ᎷᴜՏɪᴄ + Ꮩɪᴅᴇᴏ Տᴛʀᴇᴀᴍᴇʀ ϴɴ Ͳᴇʟᴇɢʀᴀᴍ Ꮩᴏɪᴄᴇ Ꮯʜᴀᴛ [</Oꜰꜰʟɪɴᴇ> ‌[ᴀꜰᴋ]「™ʟᴏɢ✓ᴏᴜᴛ❥︎✔︎」🇮🇳](https://t.me/log_afk) .
+
+Տᴇᴇ Ꮇʏ Ꭺʟʟ ᏟᴏᴍᴍᴀɴᴅՏ: /help """
 
 
 @app.on_message(filters.command("help") & filters.private)
