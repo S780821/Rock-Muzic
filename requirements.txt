@@ -6,7 +6,7 @@ pillow
 pyrogram
 hachoir
 lyricsgenius
-py-tgcalls
+py-tgcalls==0.8.5
 wget
 python-dotenv
 youtube-search-python
@@ -17,7 +17,7 @@ psutil
 requests
 rich
 dnspython
-git+https://github.com/S780821/itxyoutube@master
+yt-dlp==2021.11.10.1
 tgcrypto
 gitpython
 heroku3
