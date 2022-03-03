@@ -24,7 +24,15 @@ def url_markup(videoid, duration, user_id, query, query_type):
                 callback_data=f"slider F|{query_type}|{query}|{user_id}",
             ),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+         ],
+       [
             InlineKeyboardButton(
                 text="🔎 More Results",
                 callback_data=f"Search {query}|{user_id}",
@@ -50,7 +58,15 @@ def url_markup2(videoid, duration, user_id):
                 callback_data=f"Choose {videoid}|{duration}|{user_id}",
             ),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+             ),
+         ],
+       [
             InlineKeyboardButton(
                 text="🗑 Close Search",
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -171,7 +187,15 @@ def secondary_markup(videoid, user_id):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+         ],
+       [
             InlineKeyboardButton(
                 text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
             ),
@@ -189,7 +213,15 @@ def secondary_markup2(videoid, user_id):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+         ],
+       [
             InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
         ],
     ]
@@ -213,7 +245,15 @@ def primary_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+        ],
+      [
             InlineKeyboardButton(
                 text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
             ),
@@ -237,7 +277,15 @@ def timer_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+         ],
+       [
             InlineKeyboardButton(
                 text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
             ),
@@ -264,6 +312,14 @@ def audio_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+         ],
         [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
     ]
     return buttons
@@ -283,6 +339,14 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
+   [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+         ],
         [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
     ]
     return buttons
@@ -296,6 +360,14 @@ audio_markup2 = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
+    [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+                ),
+         ],
         [InlineKeyboardButton("🗑 Close Menu", callback_data="close")],
     ]
 )
