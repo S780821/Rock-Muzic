@@ -14,6 +14,14 @@ def choose_markup(videoid, duration, user_id):
                 callback_data=f"Choose {videoid}|{duration}|{user_id}",
             ),
         ],
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+             ),
+          ],
         [
             InlineKeyboardButton(
                 text="🗑 Close Search",
@@ -56,7 +64,15 @@ def stream_quality_markup(videoid, duration, user_id):
                 callback_data=f"VideoStream 480|{videoid}|{duration}|{user_id}",
             ),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+             ),
+         ],
+       [
             InlineKeyboardButton(
                 text="🗑 Close Search",
                 callback_data=f"forceclose {videoid}|{user_id}",
