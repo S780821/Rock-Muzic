@@ -18,7 +18,15 @@ def song_markup(videoid, duration, user_id, query, query_type):
                 callback_data=f"song_right F|{query_type}|{query}|{user_id}",
             ),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+             ),
+         ],
+       [
             InlineKeyboardButton(
                 text="🗑 Close Search",
                 callback_data=f"forceclose {query}|{user_id}",
@@ -40,7 +48,15 @@ def song_download_markup(videoid, user_id):
                 callback_data=f"gets video|{videoid}|{user_id}",
             ),
         ],
-        [
+      [
+                InlineKeyboardButton(
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ROCKERZ_UPDATES"
+                ),
+                InlineKeyboardButton(
+                    text=" ɢʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"
+             ),
+         ],
+       [
             InlineKeyboardButton(
                 text="🗑 Close Menu",
                 callback_data=f"forceclose {videoid}|{user_id}",
